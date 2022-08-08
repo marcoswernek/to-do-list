@@ -131,3 +131,8 @@ ion-icon {
     text-decoration: line-through;
 }
 
+@media screen and (max-width: 480px) {
+    #tasks-container {
+      width: 350px;
+    }
+  }
