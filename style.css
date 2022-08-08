@@ -74,7 +74,9 @@ ion-icon {
     list-style: none;
     padding-left: 0;
 }
-
+img{
+    width: 100px;
+}
 #task-list li {
     text-align: left;
     height: 50px;
@@ -134,5 +136,9 @@ ion-icon {
 @media screen and (max-width: 480px) {
     #tasks-container {
       width: 350px;
+    }
+
+    body{
+        background: darkslategrey;
     }
   }
